@@ -1,4 +1,4 @@
-# config.py
+# config.py 
 # Configuración del servidor IRC
 SERVER = 'irc.chathispano.org'  # Cambia esto por tu servidor IRC 127.0.0.1
 #SERVER = '127.0.0.1'  # Cambia esto por tu servidor IRC 127.0.0.1
