@@ -162,7 +162,7 @@ class IRCBot:
         })
         self.clean_old_messages(user)
 ##########################################################################
-
+    
     def responde_a_mencion(self, message, nick):
         #print(f"Comprobando mención para: {nick} - Mensaje: {message}")
         if self.nickname.lower() in message.lower():
