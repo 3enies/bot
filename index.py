@@ -176,6 +176,9 @@ class IRCBot:
                 response = self.sock.recv(4096).decode('utf-8', errors='ignore').strip('\r\n')
                 print(f"Recibida respuesta del servidor: {response}")
                 # Responder a PING
+                if not response:
+                    time.sleep(0.1)  # Espera pequeña para evitar sobrecargar la CPU
+                    continue
                 if response.startswith("PING"):
                     self.send_cmd(f"PONG {response.split()[1]}")
                     print("Respondiendo a PING con PONG")
