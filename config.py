@@ -7,4 +7,4 @@ NICKNAME = 'botHdO'    # Nombre del bot
 PASS = ''              # Contraseña (dejar vacío si no se requiere)
 NAME = 'botHdO'       # Nombre del bot (para la presentación)
 OWNER = 'nina[ZDm]'          # Propietario del bot
-CHANNEL = '#Historia_de_O'      # Canal al que se unirá el bot
+CHANNEL = '#Historia_de_O'       # Canal al que se unirá el bot
